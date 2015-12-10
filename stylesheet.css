@@ -1,0 +1,313 @@
+body{
+  margin:0;
+  background-color: white;
+}
+
+h1{
+  font-size:120px;
+  font-family: futura-pt, Arial, sans-serif;
+  text-align:center;
+  text-transform: uppercase;
+  font-weight: normal;
+  letter-spacing: 10px;
+  color:white;
+
+}
+
+h5{
+  font-family: Verdana;
+  font-size:25px;
+}
+
+h3{
+  margin-top: 0px;
+  font-family: futura-pt, Arial, sans-serif;
+  text-align:center;
+  text-transform: uppercase;
+  font-weight: normal;
+  letter-spacing: 30px;
+  font-size: 70px;
+}
+
+h2{
+  font-family: verdana;
+  font-size: 20px;
+  margin-left:10px;
+}
+
+p{
+  font-family:verdana ;
+  font-size: 20px;
+}
+/*links*/
+a{
+  text-decoration: none;
+
+}
+
+a:link{
+  color:black;
+}
+
+a:hover{
+  opacity: 0.6;
+
+}
+
+a:visited{
+  color:black;
+}
+
+img{
+  opacity: 0.95;
+}
+
+img:hover{
+  opacity: 1;
+}
+
+/*header*/
+.header{
+  width:100%;
+  height:150px;
+  margin-top:-80px;
+  background-image: url(http://www.eonline.com/eol_images/Entire_Site/201385/rs_560x415-130905123116-1024-jennifercooper-streetstyle-.jpg)
+}
+/*navigation bar*/
+
+.navbar{
+  width:270px;
+  height:200px;
+  font-size: 30px;
+  font-family: Verdana;
+  margin-top: 10px;
+  background-color:#D3D3D3;
+  margin-left: 10px;
+  text-transform: none;
+}
+
+#navbar{
+ list-style-type: none;
+ margin:0;
+ padding:0;
+}
+
+#navbars{
+  width: 80px;
+}
+
+.navbars{
+  display: inline;
+  float: left;
+}
+
+/*homepage*/
+/*pictures on the homepage*/
+#tablehome{
+  float:right;
+  width:1514px;
+}
+.tablehome{
+  margin-top:-200px;
+}
+/*text on the homepage*/
+#texthome{
+  font-family: Verdana;
+  font-size: 25px;
+  color:black;
+  background-color: #D3D3D3;
+  width:270px;
+  height:90px;
+  margin-left:10px;
+}
+
+.texthome{
+  margin-left:10px;
+
+}
+/*social media on the homepage*/
+#socialhome{
+  width:270px;
+  background-color:#D3D3D3;
+  height:300px;
+  margin-top: -20px;
+  margin-left: 10px;
+}
+
+.socialtexthome{
+  margin-left:10px;
+}
+
+.socialimghome{
+  float:left;
+  position: absolute;
+}
+#instagram{
+  margin-left: 10px;
+  width:90px;
+  height:90px
+  margin-top:40px;
+
+}
+#tumblr{
+  margin-left:120px;
+  width:85px;
+  height:85px;
+  margin-top:-10px;
+}
+#pinterest{
+  margin-left:70px;
+  width:110px;
+  height:110px;
+  margin-top:70px;
+}
+
+.ending{
+  font-size: 25px;
+  font-family: Verdana;
+  margin-left:10px;
+  margin-top:15px;
+}
+#ending{
+  margin-left: 10px;
+  width:270px;
+  height:60px;
+  background-color:#D3D3D3;
+}
+/*blog page*/
+#table{
+  width:1000px;
+  height:500px;
+  font-size: 50px;
+  font-family: Verdana;
+  margin-left: 300px;
+  border: 1px solid black;
+  margin-top: -200px;
+
+}
+
+#gif1{
+  width:270px;
+  height:350px;
+  float:left;
+  margin-left:10px;
+  margin-top:-350px;
+}
+
+#img1{
+  width: 500px;
+  height: 570px;
+  float:right;
+  margin-right:50px;
+  margin-top:-570px;
+}
+
+#img2{
+  margin-top: 10px;
+  margin-left:10px;
+  width:450px;
+}
+
+#img3{
+  height:300px;
+  margin-top: 10px;
+  margin-left:10px;
+  margin-right:10px;
+  width:450px;
+}
+
+#img4{
+  margin-top: 10px;
+  margin-right: 10px;
+  width:450px;
+}
+
+#img5{
+   margin-right:10px;
+   margin-top: 10px;
+   width:450px;
+}
+
+/*fasion weeks*/
+
+
+.fashionweek{
+  width: 100%;
+  border-bottom:3px solid black;
+  height:80px;
+}
+
+#city{
+  width:99%;
+  height:700px;
+  border-bottom: 3px solid black;
+  margin:10px;
+  background-color:white;
+}
+
+.newyork{
+ border-top: 3px solid  black
+}
+
+
+.fw1{
+  height: 600px;
+  width:550px;
+  margin-top: 10px;
+  margin-left: 50px;
+  opacity: 1;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+
+.fw2{
+  height: 600px;
+  width:550px;
+  margin-top: 10px;
+  margin-left: 50px;
+  opacity:1;
+  border-radius: 5px;
+  margin-right:10px;
+}
+
+.fw3{
+  height: 600px;
+  width:550px;
+  margin-top: 10px;
+  margin-left: 50px;
+  opacity: 1;
+  border-radius: 5px;
+}
+
+/*shops page*/
+.moeilijkdoener{
+  height:333px;
+  width:500px;
+}
+
+.tablestores{
+  margin-top: -630px;
+}
+/*shops and socilamedia page*/
+#list{
+  width:270px;
+  height:200px;
+  margin-left:10px;
+  background-color:#D3D3D3;
+  position: relative;
+}
+
+#lists{
+  font-size: 20px;
+  font-family:Verdana;
+  width:260px;
+  list-style-type: none;
+  margin-left: -36px;
+  margin-top:10px;
+  display:block;
+}
+/*social media page*/
+.tablesocial{
+  height:1000px;
+  margin-top: -1250px;
+}
